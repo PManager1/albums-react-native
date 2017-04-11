@@ -1,13 +1,15 @@
 // create a rectangle with text inside it.
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
-
+import axios from 'axios'
 
 class AlbumList extends Component {
 
   componentWillMount() {
-
       console.log( ' compo will mount called - wow ');
+
+      axios.get('https:rallycoding.herokuapp.com/api/music_albums')
+        .then(response => console.log(response))
     }
 
 
