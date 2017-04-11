@@ -4,7 +4,7 @@ import { Text, AppRegistry } from 'react-native';
 // Create a comp
 const App = function () {
   return (
-        <Text> s Some Text fuck fuck fuck fuck fuck fuck fuck fuck fuck </Text>
+        <Text> Jay Cool hoo ha  </Text>
     );
 };
 // Render the com
