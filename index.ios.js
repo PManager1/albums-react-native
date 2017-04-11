@@ -1,10 +1,11 @@
 import React from 'react';
 // import ReactNative from 'react-native';
 import { Text, AppRegistry } from 'react-native';
+import Header from './src/components/header'
 // Create a comp
 const App = function () {
   return (
-        <Text> Jay Cool hoo ha  </Text>
+        <Header />
     );
 };
 // Render the com
