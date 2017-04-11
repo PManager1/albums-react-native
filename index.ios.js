@@ -5,7 +5,7 @@ import Header from './src/components/header'
 // Create a comp
 const App = function () {
   return (
-        <Header />
+        <Header headerText={'Albums'} />
     );
 };
 // Render the com
