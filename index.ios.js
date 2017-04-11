@@ -1,11 +1,15 @@
 import React from 'react';
-// import ReactNative from 'react-native';
-import { Text, AppRegistry } from 'react-native';
-import Header from './src/components/header'
+import { AppRegistry, View } from 'react-native';
+
+import Header from './src/components/header';
+import AlbumList from './src/components/AlbumList';
 // Create a comp
 const App = function () {
   return (
-        <Header headerText={'Albums'} />
+        <View>
+            <Header headerText={'Albums'} />
+            <AlbumList />
+        </View>
     );
 };
 // Render the com
