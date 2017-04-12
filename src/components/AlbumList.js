@@ -1,7 +1,8 @@
 // create a rectangle with text inside it.
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
-import axios from 'axios'
+import axios from 'axios';
+import AlbumDetail from './AlbumDetail';
 
 class AlbumList extends Component {
   state = { albums: [] };  // initializing
@@ -13,7 +14,7 @@ class AlbumList extends Component {
 
 renderAlbums(){
   return this.state.albums.map(
-              album => <Text>{album.title}</Text>
+              album => <AlbumDetail key={album.title} album={album} />
   );
 }
 
