@@ -10,7 +10,6 @@ return (
   </View>
 );
 
-
 };
 
 export default AlbumDetail;
