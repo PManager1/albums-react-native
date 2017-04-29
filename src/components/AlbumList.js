@@ -1,6 +1,6 @@
 // create a rectangle with text inside it.
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { ScrollView } from 'react-native';
 import axios from 'axios';
 import AlbumDetail from './AlbumDetail';
 
@@ -21,9 +21,9 @@ renderAlbums(){
   render () {
     console.log('this.state inside the render', this.state);
     return (
-      <View>
+      <ScrollView>
         {this.renderAlbums()}
-      </View>
+      </ScrollView>
     );
   }
 };
