@@ -14,7 +14,8 @@ return (
 
     <View>
       <Image style={styles.thumbnail_style}
-             source={{ uri: thumbnail_image }} />
+             source={{ uri: thumbnail_image }}
+      />
     </View>
 
     <View style={styles.headerContentStyle}>
