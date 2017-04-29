@@ -14,7 +14,3 @@ const App = function () {
 };
 // Render the com
 AppRegistry.registerComponent('albums', () => App);
-
-// const App = => (
-//   <Text> Some Text </Text>
-// );
