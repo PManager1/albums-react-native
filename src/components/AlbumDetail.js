@@ -11,6 +11,8 @@ return (
     <CardSection>
       <Text> {props.album.title}  </Text>
     </CardSection>
+
+    
   </Card>
 );
 
