@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Text, View, Image } from 'react-native';
 import Card from './Card';
 import CardSection from './CardSection';
+import Button from './Button';
 
 const AlbumDetail = ({ album }) => {
 
@@ -29,6 +30,9 @@ return (
       <Image style={imageStyle} source={{ uri: image }}/>
     </CardSection>
 
+    <CardSection>
+      < Button />
+    </CardSection>
   </Card>
 );
 };
