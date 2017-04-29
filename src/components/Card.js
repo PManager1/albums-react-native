@@ -6,7 +6,7 @@ const Card = (props) => {
 
 return (
   <View>
-  
+    {props.children}
   </View>
 );
 
